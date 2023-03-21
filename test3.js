@@ -1,8 +1,5 @@
 // x ^ 2 - 4 * y ^ 2 = n
 
-const firstEquation = (x, y) => x - 2 * y;
-const secondEquation = (x, y) => x + 2 * y;
-
 function solve(n) {
   console.log(`x ^ 2 - 4 * y ^ 2 = ${n}`);
   const result = [];
